@@ -1,0 +1,35 @@
+.facebook-box {margin-right: 0 !important; width:200px !important; position: relative;}
+#footer .facebook-box h4 {padding-left: 0 !important;}
+.facebook-box .fb_avatar {float: left; margin-right: 10px;}
+.facebook-box .fb_info_top, 
+.facebook-box .fb_fans, 
+.facebook-box .fb_info,
+.facebook-box .fb_followers {overflow: hidden; border:none !important}
+.facebook-box .likeButton {
+                background:#68696d url(../img/like.png) no-repeat 10px 5px;
+                -webkit-border-radius: 5px;
+        border-radius: 5px;
+        height:24px;        
+        padding: 0 10px 0 29px;
+        color:#b4b4b6;
+        font: normal 12px Arial;
+        line-height: 24px;
+        display: inline-block;
+        position: absolute;
+        top:0px;
+        right: 0;
+ }
+ .facebook-box .likeButton:hover {
+        text-decoration: none;
+        color:#fff;
+        background-color:#555
+ } 
+.facebook-box .fb_fans {padding: 7px 0 14px; color:#666}
+.facebook-box .fb_fans a {color:#a9a9a9; text-decoration: underline;}
+.facebook-box .fb_fans a:hover {text-decoration: none; color:#eee}
+.facebook-box .fb_followers li {float:left; padding: 0 !important; border-style: none !important; width:52px; height:52px; margin-right:22px !important; margin-bottom: 22px !important; text-align: center; }
+.facebook-box .fb_followers li:nth-child(3n+3) {margin-right: 0px !important;}
+.facebook-box .fb_followers li:hover {padding-left: 0 !important;}
+.facebook-box .fb_followers li a, .facebook-box .fb_followers li span {padding: 3px !important; background: #68696d; display:block}
+.facebook-box .fb_followers li a:hover {padding: 3px !important; background: #999aa1;}
+.facebook-box .fb_followers li img {width:46px; height: 46px; vertical-align: top;}
